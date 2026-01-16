@@ -1,0 +1,572 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #1a1a1a;
+    font-family: 'Poppins';
+    background-color: #fffcf3;
+}
+
+/* NAVBAR */
+nav{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.leftNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    gap: 25px;
+    font-size: 0.9rem;
+}
+
+.leftNav img{
+    margin: 2px 10px 5px 0;
+    height: 50px;
+    max-width: 200px;
+}
+
+.rightNav{
+    display: flex;
+    gap: 10px;
+    font-size: 0.9rem;
+}
+
+.rightNav .getStartedBtn, .rightNav .logInBtn{
+    padding: 10px 26px 10px 26px;
+    border: 1px solid lightgray;
+    border-radius: 22px;
+    font-weight: 500;
+}
+
+.getStartedBtn, .getStartedBtn a{
+    background-color: #85FF5B;
+}
+
+.getStartedBtn:hover, .logInBtn:hover{
+    cursor: pointer;
+}
+/* HERO SECTION */
+.heroSect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.heroImg img{
+    height: 500px;
+    width: 550px;
+}
+
+.contentDiv{
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+}
+
+.contentDiv .title{
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 3.4rem;
+    font-family: 'Source Serif 4';
+    font-weight: 500;
+}
+
+/* PERKS SECTION */
+.perkSect{
+    background-color: #08494b;
+    height: 390px;
+    width: cover;
+    padding: 100px 24px 100px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.perkSect .perk,
+.perkSect h4,
+.perkSect p, 
+.perkSect .title,
+.perkSect .subTitle{
+    color: #fffcf3;
+    background-color: #08494b;
+}
+
+.perkSect .title{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-family: 'Source Serif 4';
+}
+
+.perkSect .subTitle{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+
+}
+
+.perkSect .perksBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 20px 15px 0 15px;
+    gap: 20px;
+    background-color: #08494b;
+}
+
+.perkSect img{
+    height: 80px;
+    width: 80px;
+}
+
+.perkSect .perk{
+    font-size: small;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.perkSect h4, .perkSect p{
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* BUILD A BUDGET SECTION */
+.buildBudget{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 30px 50px 30px;
+    width: cover;
+    height: 600px;
+    gap: 70px;
+}
+
+.leftSect{
+    width: 40%;
+}
+
+.leftSect h2{
+    font-family: 'Source Serif 4';
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.leftSect p{
+    width: 90%;
+    margin-bottom: 12px;
+}
+
+.leftSect .note{
+    font-weight: 600;
+}
+
+.budgetBoxes{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 12px;
+    width: 12%;
+    border-radius: 12px;
+    border: 1px solid gray;
+    transition: 0.2s all 0s ease-in-out;
+}
+
+.btn:hover{
+    background-color: rgb(225, 225, 225);
+    cursor: pointer;
+}
+
+.rightSect img{
+    border-radius: 16px;
+}
+
+/* OpEx BUDGET SECTION */
+.opExSect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: cover;
+    padding: 20px 25px 60px 25px;
+    gap: 30px;
+}
+
+.topContent,
+.opExSect, 
+.opExSect .subjGrid,
+.opExSect .opExBudget, 
+.topContent h2,
+.topContent p,
+.searchLink,
+.searchLink a,
+.searchLink i{
+    background-color: #2f1f70;
+    color: #fffcf3;
+}
+
+.opExSect .opExBudget{
+    display: flex;
+    flex-direction: column;
+    max-width: 35%;
+    padding: 60px 100px 0 100px;
+}
+
+.searchLink a,
+.searchLink i{
+    color: #85FF5B;
+    text-decoration: none;
+}
+
+.opExBudget h2{
+    font-family: 'Source Serif 4';
+    font-size: 3.3rem;
+    font-weight: 400;
+    margin: 6px 0 16px 0;
+}
+
+.opExBudget .descBox,
+.descBox p,
+.descBox a,
+.descBox h5,
+.descBox .arrows{
+    background-color: #5c66c2f3;
+    color: white;
+}
+
+.opExBudget .descBox{
+    margin-top: 90px;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.descBox h5{
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+
+.descBox p, .descBox a{
+    font-size: 0.8rem;
+}
+
+.descBox a:hover{
+    text-decoration: none;
+}
+
+.descBox i{
+    background-color: #5c66c2f3;
+    color: white;
+    font-size: 0.5rem;
+    margin: 6px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.opExSect .subjGrid{
+    display: flex;
+    width: auto;
+    height: 530px;
+    margin: 80px 0 0 60px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px white dotted;
+}
+
+.subjGrid .Div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #dffff177;
+    color: #2f1f70;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.2s all 0s ease-in-out;
+}
+
+.subjGrid .Div:hover{
+    background-color: #dffff1;
+    cursor: pointer;
+}
+
+.block{
+    background-color: #2f1f70;
+}
+
+.b1{
+    width: 31%;
+    height: 90%;
+    margin-right: 10px;
+}
+
+.s{
+    height: 60%;
+}
+
+.i{
+    height: 40%;
+}
+
+.halfBox{
+    background-color: #2f1f70;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.b2{
+    height: 24%;
+    width: 95%;
+}
+
+.u{
+    height: 90%;
+    width: 90%;
+}
+
+.b3{
+    display: flex;
+    margin-bottom: 10px;
+    height: 45%;
+    width: 90%;
+}
+
+.b3a, .b3b{
+    height: 100%;
+    margin-right: 32px;
+}
+
+.b3a .r{
+    height: 60%;
+    width: 100%;
+}
+
+.b3a .p{
+    width: 100%;
+    height: 30%;
+}
+
+.b3b .m{
+    height: 100%;
+    width: 102%;
+}
+
+.b4{
+    display: flex;
+    height: 27%;
+    width: 90%;
+}
+
+/* BRING BUDGET TO LIFE SECTION */
+.budgetLife,
+.budgetLife .headingContent,
+.budgetLife .secContent,
+.headingContent h4, 
+.headingContent p,
+.secContent,
+.secContent h6,
+.secContent p,
+.secContent a,
+.buyIn-left, .conductCheck-right{
+    background-color: #4c9d8d;
+    color: white;
+}
+
+.headingContent h4{
+    font-family: 'Source Serif 4';
+    font-size: 3.1rem;
+    font-weight: 400;
+    padding: 100px 0 15px 100px;
+}
+
+.headingContent p{
+    font-size: 1.1rem;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+
+.secContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 40px 30px 100px;
+}
+
+.buyIn-left, .conductCheck-right{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+} 
+
+.buyIn-left img, .conductCheck-right img{
+    height: 325px;
+    width: 570px;
+    border-radius: 12px;
+    margin: 20px;
+}
+
+.secContent h6{
+    font-size: 1.2rem;
+    padding: 20px 20px 0 20px;
+}
+
+.secContent p{
+    padding: 10px 20px 10px 20px;
+}
+
+.secContent a{
+    padding: 10px 20px 50px 20px;
+}
+
+/* CTA SECTION */
+.mainFrame,
+.mainFrame h1,
+.mainFrame p,
+.mainFrame .ctaBtn{
+    background-color: #08494b;
+    color: white;
+}
+
+.cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainFrame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 0 100px 0;
+    margin: 50px;
+    margin-bottom: 80px;
+    width: 80%;
+    height: auto;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.mainFrame h1{
+    padding: 100px 20px 30px 20px;
+    font-family: 'Source Serif 4';
+    font-size: 2.8rem;
+    font-weight: 400;
+}
+
+.mainFrame p{
+    padding-bottom: 60px;
+}
+
+.mainFrame .ctaBtn{
+    background-color: #85FF5B;
+    padding: 15px 25px 15px 25px;
+    color: #08494b;
+    font-weight: 600;
+    border-radius: 24px;
+    font-size: 0.9rem;
+}
+
+/* FOOTER */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+footer,
+footer .socials,
+footer img,
+footer i,
+footer h1,
+footer h6,
+footer ul li,
+footer p,
+footer .topFooter, 
+footer .bottomFooter{
+    background-color: #006956;
+    color: white;
+}
+
+footer p{
+    font-size: 0.8rem;
+}
+
+footer ul li{
+    font-size: 0.9rem;
+    padding-bottom: 5px;
+    list-style: none;
+}
+
+footer h6{
+    font-weight: 550;
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+
+footer .topFooter, footer .bottomFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 60px;
+}
+
+.leftTopf, .bLeftf{
+    margin-right: auto;
+    background-color: #006956;
+    padding-left: 50px;
+}
+
+footer i{
+    font-size: 1.3rem;
+    padding-bottom: 8px;
+}
+
+.bLeftf{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.rightTopf{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 50px;
+    background-color: #006956;
+    margin-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.bRightf{
+    margin-right: 100px;
+    text-align: right;
+}
