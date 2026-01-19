@@ -49,6 +49,7 @@ All design credits belong to Daisy.
 
 ---
 
-##💡 Author
+## 💡 Author
 
+### 📅 Date Completed: January 14, 2026
 Made with ❤️ by [@erleen0307](https://github.com/erleen0307)
